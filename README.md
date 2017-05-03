@@ -1,6 +1,6 @@
 ### TodoList-v1.0
 
-[效果预览](http://nicole-d.party/TodoList-v1.0/build/index.html)
+[效果预览](https://nicole0320.github.io/TodoList-v1.0/build/index.html)
 
 #### 功能：
 - 在输入框输入待办事项，输入完成后用 enter 键提交

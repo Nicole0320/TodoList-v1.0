@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://nicole-d.party/TodoList-v1.0/build/"
+  "homepage": "https://nicole0320.github.io/TodoList-v1.0/build/"
 }
