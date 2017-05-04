@@ -4,7 +4,8 @@ import './reset.css';
 import './App.css';
 import TodoInput from './TodoInput';
 import TodoItem from './TodoItem';
-import * as localStorage from './localStore'
+import * as localStorage from './localStore';
+import {ContactAuthor} from './ContactAuthor';
 
 class App extends Component {
   constructor(props){
@@ -38,6 +39,7 @@ class App extends Component {
         <ol className="todoList">
           {todos}
         </ol>
+        <ContactAuthor/>
       </div>
     );
   }

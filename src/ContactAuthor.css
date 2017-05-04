@@ -1,0 +1,62 @@
+.ContactAuthor{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: #333;
+}
+
+.ContactAuthor>li{
+    border: 1px solid #ccc;
+    background: #fff;
+    border-bottom: none;
+    position: relative;
+    border-radius: 3px;
+}
+
+.ContactAuthor li>p{
+    position: absolute;
+    top: 4px;
+    right: 110%;
+    background: #fff;
+    color: #ff5555;
+    border: 1px solid #ff5555;
+    padding: 5px 8px;
+    border-radius: 3px;
+    width: 85px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.ContactAuthor li>p::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    border-top: 1px solid #ff5555;
+    border-right: 1px solid #ff5555;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.ContactAuthor li:hover{
+    color: #fff;
+    background-color: #ff7777;
+    border-color: #ff7777;
+}
+
+.ContactAuthor li:hover>p{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+    transition: all 1s;
+}
+
+.ContactAuthor a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: inherit;
+    padding: 8px 14px;
+}
