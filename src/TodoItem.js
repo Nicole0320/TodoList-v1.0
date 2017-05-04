@@ -11,7 +11,7 @@ class TodoItem extends React.Component{
                     checked={this.props.todo.status === 'completed'}
                     onChange={this.toggle.bind(this)}/>
                 <label htmlFor={this.props.id}>
-                    <i className={"iconfont "+(this.props.todo.status === 'completed' ? "icon-checkbox1" : "icon-checkbox")}></i>
+                    <i className={"iconfont "+(this.props.todo.status === 'completed' ? "icon-checked" : "icon-checkboxbuxuan")}></i>
                 </label>
                 <span className="title">{this.props.todo.title}</span>
                 <button onClick={this.delete.bind(this)}><i className="iconfont icon-delete"></i></button>
